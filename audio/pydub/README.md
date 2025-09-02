@@ -1,3 +1,18 @@
-# PyDub
+# PyDub — מדריך קצר
 
-Run: `python example_pydub.py`
+**מה זה?**  
+ספרייה פשוטה ליצירה/עריכה/שמירה של אודיו (חיתוך, מיזוג, שינוי ווליום, המרה בין פורמטים).
+
+## למה להשתמש?
+- יצירת צליל מאפס (Sine/WhiteNoise).
+- חיתוך ושרשור קבצים.
+- שינוי עוצמה / פייד־אין־אאוט.
+<!-- - המרה בין פורמטים (WAV/MP3/OGG). -->
+
+## התקנה
+pip install pydub
+# ל-MP3 צריך ffmpeg מותקן במערכת
+
+## הרצה
+python audio/pydub/example_pydub.py
+# ייווצר: audio/pydub_tone.wav
