@@ -1,0 +1,23 @@
+# Core
+pandas
+numpy
+
+# GIS
+geopandas
+
+# Image
+opencv-python
+Pillow
+scikit-image
+
+# Audio / Speech
+SpeechRecognition
+librosa
+pydub
+pyaudio; platform_system == "Windows"
+
+# NLP
+nltk
+spacy
+textblob
+# gensim
