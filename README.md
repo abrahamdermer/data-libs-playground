@@ -1,25 +1,28 @@
-# Data Libraries Playground
+# Data Libraries Playground — מדריך מרכזי
 
-Repo for students to learn popular Python libraries by topic: GIS, Image Processing, Audio/Speech, and NLP.
+ריפו זה כולל דוגמאות לספריות פייתון חשובות לפי תחום: GIS, תמונה, אודיו וטקסט.  
+בכל תיקייה תמצאו:
+- קובץ `example_*.py` — דוגמאות להרצה
+- קובץ `README.md` — הסבר קצר בעברית + תרגילים
 
-## How to use
-1. Create a virtual environment (Windows PowerShell):
-   ```powershell
-   python -m venv .venv
-   .\.venv\Scripts\Activate.ps1
-   python -m pip install --upgrade pip
-   pip install -r requirements.txt
-   ```
-2. Open any folder under a topic and run the example script.
+## תחומים שכבר מוכנים
+- 🌍 GIS → [GeoPandas](gis/geopandas/README.md)
+- 🖼️ Image → [OpenCV](image/opencv/README.md)
+- 🎵 Audio → [PyDub](audio/pydub/README.md)
+- 📝 Text → [NLTK](nlp/nltk/README.md)
 
-## Topics
-- `gis/` → GeoPandas, ArcGIS (notes)
-- `image/` → OpenCV, Pillow, scikit-image
-- `audio/` → SpeechRecognition, Librosa, PyDub, PyAudio
-- `nlp/` → NLTK, spaCy, TextBlob, Gensim
+## התקנה והרצה
+1. צרו סביבת עבודה:
+```powershell
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
+pip install -r requirements.txt
 
-## Contributing
-- Keep examples minimal and runnable.
-- Each library folder should include:
-  - `README.md` with: What it does, Install, Common tasks, Exercises.
-  - `example_*.py` with short, commented code (Hebrew + English comments).
+
+
+2. הרצה של דוגמה (לדוגמה GeoPandas):
+```powershell
+python gis/geopandas/example_geopandas.py
+```
+
+אותו הדבר עובד גם לתיקיות `image/`, `audio/`, `nlp/`.
